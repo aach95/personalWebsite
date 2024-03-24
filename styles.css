@@ -4,18 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "popins", sans-serif; 
+    font-family: 'Poppins', sans-serif; 
 }
 
 body {
     color:#ededed;
+    background-color: #071824;
 }
 
 .header {
     position:fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 101%;
     padding: 20px 10%;
     background: transparent;
     display: flex; 
@@ -66,6 +67,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
+    padding-top: 20px;
 }
 
 .home-content {
@@ -74,7 +76,7 @@ body {
 
 .home-content h1 {
     position: relative;
-    font-size: 56px;
+    font-size: 55px;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -154,7 +156,7 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 160px;
     height: 100%;
     background: #00abf0;
     border: 2px solid #00abf0;
@@ -306,4 +308,84 @@ body {
     100% {
         pointer-events:  auto;
     }
+} 
+
+.about {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background: url(img/about1.png) no-repeat;
+    margin-top: 8rem;
+    margin-bottom: 9rem;
 }
+
+.about-img img{
+    width: 35vw;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    margin-right: 40px;
+}
+
+.services h2{
+    margin-bottom: 3rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 1rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+
+
+
+
+
+
